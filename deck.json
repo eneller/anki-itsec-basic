@@ -1,0 +1,870 @@
+{
+    "__type__": "Deck",
+    "children": [
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "68da55e8-3f22-11ee-b216-50eb714989dc",
+            "deck_config_uuid": "68dd0c3e-3f22-11ee-b216-50eb714989dc",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "1_Fundamentals",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Dependability",
+                        "<div>The trustworthiness of a computing system to provide correct service</div><ul><li>Availability</li><li>Reliability</li><li>Safety</li><li>Integrity</li><li>Maintainability</li></ul>",
+                        ""
+                    ],
+                    "guid": "Cc{W$>J=mR",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Availability",
+                        "Service is available to the user",
+                        ""
+                    ],
+                    "guid": "x9^)w,x-oc",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Reliability",
+                        "Service is provided permanently and performing correctly",
+                        ""
+                    ],
+                    "guid": "BHiAUEtSp`",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Safety",
+                        "Service is safe to use for people and environment",
+                        ""
+                    ],
+                    "guid": "Q`TfV!m~^s",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Integrity",
+                        "No inappropriate changes to the system status",
+                        ""
+                    ],
+                    "guid": "JTN+A>Kl>z",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Maintainability",
+                        "Maintenance and repairs can be performed",
+                        ""
+                    ],
+                    "guid": "hh!0ibSt-5",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Confidentiality",
+                        "No unauthorized access of information",
+                        ""
+                    ],
+                    "guid": "d}MP-8>@d4",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Security",
+                        "CIA:<br><ul><li>Confidentiality</li><li>Integrity</li><li>Availability</li></ul><div>also:</div><div><ul><li>Identification / Authentication</li><li>Authorization / Access Control</li><li>Accountability / Non-Repudiation</li><li>Data Protection / Privacy</li></ul></div>",
+                        ""
+                    ],
+                    "guid": "l9-1w(Es;d",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Threat",
+                        "Potential event which could violate security objectives",
+                        ""
+                    ],
+                    "guid": "bJc;JA~K[c",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Vulnerability",
+                        "Flaw in a system that could be exploited",
+                        ""
+                    ],
+                    "guid": "y*,(&P$ivx",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Attack",
+                        "Manifestaion of a <b>Threat</b> exploiting a <b>Vulnerability</b>",
+                        ""
+                    ],
+                    "guid": "u[w1>ToDUS",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Security Mechanisms",
+                        "Mechanism to prevent, detect or react to an&nbsp;<b>attack.&nbsp;</b>Implements a&nbsp;<i>security policy</i><br><ul><li>Prevention<br></li><li>Detection</li><li>Recovery</li></ul>",
+                        ""
+                    ],
+                    "guid": "xKhCw:v?~}",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Safety vs Security",
+                        "<ul><li>Safety protects humans from the machine (accidents)</li><li>Security protects the machine from humans (targeted intervention)</li></ul>",
+                        ""
+                    ],
+                    "guid": "lr(;SSz7AP",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Security Risk Management",
+                        "<div>Uses a Matrix that shows</div><ul><li>Damage Potential (Impact)</li><li>Threat Potential (Likelihood)</li></ul><div>to implement&nbsp;</div><div><ul><li>System modifications (damage potential)</li><li>Security modifications (threat potential)</li></ul></div>",
+                        ""
+                    ],
+                    "guid": "P3z.2wtSxu",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Identification",
+                        "Assignment of an identifier",
+                        ""
+                    ],
+                    "guid": "o8+t9eD@LU",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Authentication",
+                        "Verification of Identity",
+                        ""
+                    ],
+                    "guid": "uDEQ(*;Cw0",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Authorization",
+                        "Assignment of Permissions",
+                        ""
+                    ],
+                    "guid": "O:L&D-ge>9",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Access Control",
+                        "Authentication + Authorization + Enforcement<br><ol><li>Authenticate user to determine role</li><li>authorize user according to role</li></ol>",
+                        ""
+                    ],
+                    "guid": "wVJ/~DZ`lU",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Accountability / Non-Repudiation",
+                        "Actions can be traced to the responsible party (prove who did what)",
+                        ""
+                    ],
+                    "guid": "OF[gV0wD:{",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Privacy",
+                        "the right to be left alone, protection of personal data",
+                        ""
+                    ],
+                    "guid": "D;-]ry/Kjt",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Laws Concerning Cybersecurity",
+                        "<ul><li>§202 StGb \"Verletzung des Briefgeheimnisses\"</li><li>§303 a,b StGb</li><li>§ 263a StGB</li></ul>",
+                        ""
+                    ],
+                    "guid": "xyope*EA[",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Security Policy",
+                        "specific statement of what is and is not allowed, defines the system's security",
+                        ""
+                    ],
+                    "guid": "ja3~Y9g8@M",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Security through Obscurity",
+                        "Goes against Kerckhoffs principle that encryption must solely rely on the secrecy of the key.<br>Does usually not work, but can make attacks more difficult",
+                        ""
+                    ],
+                    "guid": "f{)e*&:txP",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Sources of Risk",
+                        "<ul><li>User</li><li>Organisational Problems</li><li>Specificaton, design, implementation ( IT)</li></ul>",
+                        ""
+                    ],
+                    "guid": "PwqT}pP.|(",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "68dbbab4-3f22-11ee-b216-50eb714989dc",
+            "deck_config_uuid": "68dd0c3e-3f22-11ee-b216-50eb714989dc",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [
+                "fc9963a138594329af10af9e70ca6f3a-ao-1-A.svg",
+                "fc9963a138594329af10af9e70ca6f3a-ao-1-Q.svg",
+                "fc9963a138594329af10af9e70ca6f3a-ao-2-A.svg",
+                "fc9963a138594329af10af9e70ca6f3a-ao-2-Q.svg",
+                "fc9963a138594329af10af9e70ca6f3a-ao-3-A.svg",
+                "fc9963a138594329af10af9e70ca6f3a-ao-3-Q.svg",
+                "fc9963a138594329af10af9e70ca6f3a-ao-4-A.svg",
+                "fc9963a138594329af10af9e70ca6f3a-ao-4-Q.svg",
+                "fc9963a138594329af10af9e70ca6f3a-ao-O.svg",
+                "latex-23db8c36efee1ab6da521aa29a7d455384472e74.png",
+                "latex-3574681da3cb25668130b96561956530ae474e64.png",
+                "latex-6dd525cc941212357f183faf0e293939b2a543f0.png",
+                "latex-7e2e58af49384d6991447e8d974e602a47b7e55a.png",
+                "latex-810670f586a1ecbee0730a1d8e0b9c43b60a7474.png",
+                "latex-ae5a5339e2e33afb16bcd423692d84ede73daa09.png",
+                "latex-b05a743fadc4314cc19b6e478c8eb4e6a5032abe.png",
+                "latex-f11ff370c591f0d67b7bf30490b59684808ea6a6.png",
+                "latex-fbd72e2f009bf01d3d53fef73e9f62f6163b8772.png",
+                "paste-64f521ea149b73ef93dddfc67fe98b2d28d358e5.jpg"
+            ],
+            "name": "2_Crypto",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Hash function",
+                        "<ul><li>[$$]h: D \\rightarrow S[/$$]</li><li>chaotic, 1 bit change should result in a maximal change in S (bit flip 50% probability)</li><li>surjective: |S| fully used</li><li>efficient: h can be calculated quickly</li><li>h is a one-way function</li></ul>",
+                        ""
+                    ],
+                    "guid": "LRT}U_*8^x",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Collision Resistance",
+                        "<ul><li>weak: given h with&nbsp;[$$]hash(m) = h[/$$], no [$$]m'[/$$] can be found efficiently where&nbsp;[$$]hash(m') = h [/$$] (with&nbsp;[$$]m \\neq m'[/$$])</li><li>strong: no (any) two different m and m' with&nbsp;[$$]hash(m) = hash(m')[/$$] can be found efficiently</li></ul>",
+                        ""
+                    ],
+                    "guid": "g&w((u+fdt",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "HMAC",
+                        "Message Authentication Code, hash is used to check whether the message has changed<br>",
+                        ""
+                    ],
+                    "guid": "Ml?M=MZS^M",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Deterministic RNG",
+                        "Pseudo-Random NG<br>quickly calculable<br>returns same number with same seed<br>not useful for crypto<br><ul><li>Linear Congruential Generator (modulo)</li><li>Mersenne Twister</li></ul>",
+                        ""
+                    ],
+                    "guid": "g7}yrk{UH|",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Non-Deterministic RNG",
+                        "<ul><li>true RNG<br></li><li>relies on external (physical) processes that should be unpredictable (thermal noise, decay, ...)</li><li>physical processes emit information at a low rate</li><li>is used as a seed for pseudo-random numbers</li><li>/dev/random in linux</li></ul>",
+                        ""
+                    ],
+                    "guid": "rAN3._s}-z",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Block Cipher",
+                        "Input is processed in blocks of fixed size",
+                        ""
+                    ],
+                    "guid": "v9_Z6n>qV~",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "fc9963a138594329af10af9e70ca6f3a-ao-1",
+                        "Symmetric Cyphers",
+                        "<img src=\"paste-64f521ea149b73ef93dddfc67fe98b2d28d358e5.jpg\" />",
+                        "<img src=\"fc9963a138594329af10af9e70ca6f3a-ao-1-Q.svg\" />",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "<img src=\"fc9963a138594329af10af9e70ca6f3a-ao-1-A.svg\" />",
+                        "<img src=\"fc9963a138594329af10af9e70ca6f3a-ao-O.svg\" />"
+                    ],
+                    "guid": "yvwcIW]a~]",
+                    "note_model_uuid": "68dc2c42-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "fc9963a138594329af10af9e70ca6f3a-ao-2",
+                        "Symmetric Cyphers",
+                        "<img src=\"paste-64f521ea149b73ef93dddfc67fe98b2d28d358e5.jpg\" />",
+                        "<img src=\"fc9963a138594329af10af9e70ca6f3a-ao-2-Q.svg\" />",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "<img src=\"fc9963a138594329af10af9e70ca6f3a-ao-2-A.svg\" />",
+                        "<img src=\"fc9963a138594329af10af9e70ca6f3a-ao-O.svg\" />"
+                    ],
+                    "guid": "KlTAI)MAf0",
+                    "note_model_uuid": "68dc2c42-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "fc9963a138594329af10af9e70ca6f3a-ao-3",
+                        "Symmetric Cyphers",
+                        "<img src=\"paste-64f521ea149b73ef93dddfc67fe98b2d28d358e5.jpg\" />",
+                        "<img src=\"fc9963a138594329af10af9e70ca6f3a-ao-3-Q.svg\" />",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "<img src=\"fc9963a138594329af10af9e70ca6f3a-ao-3-A.svg\" />",
+                        "<img src=\"fc9963a138594329af10af9e70ca6f3a-ao-O.svg\" />"
+                    ],
+                    "guid": "K)V#^_J|Wf",
+                    "note_model_uuid": "68dc2c42-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "fc9963a138594329af10af9e70ca6f3a-ao-4",
+                        "Symmetric Cyphers",
+                        "<img src=\"paste-64f521ea149b73ef93dddfc67fe98b2d28d358e5.jpg\" />",
+                        "<img src=\"fc9963a138594329af10af9e70ca6f3a-ao-4-Q.svg\" />",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "<img src=\"fc9963a138594329af10af9e70ca6f3a-ao-4-A.svg\" />",
+                        "<img src=\"fc9963a138594329af10af9e70ca6f3a-ao-O.svg\" />"
+                    ],
+                    "guid": "Q^$&E>G>g%",
+                    "note_model_uuid": "68dc2c42-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Diffie-Hellman Key Exchange",
+                        "<ol><li>Alice und Bob einigen sich zunächst öffentlich auf eine große Primzahl&nbsp;p\n&nbsp;und eine natürliche Zahl \n\ng, die kleiner als \n\np&nbsp;ist.<br></li><li>Alice und Bob erzeugen zufällig eine privaten Schlüssel [$$]\\in{1,...,p-1}[/$$] a, b.</li><li>Alice und Bob berechnen&nbsp;[$$]A = g^{a} \\mod p[/$$] und tauschen A und B aus.</li><li>Alice und Bob berechnen&nbsp;[$$]K = B^{a} mod p[/$$].&nbsp;</li></ol><div>Beide besitzen aufgrund der Restklassengleichheit den identischen Schlüssel, der für symmetrische Verschlüsselung genutzt werden kann.</div>",
+                        ""
+                    ],
+                    "guid": "jBJA0zBohV",
+                    "note_model_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "68dc7e0e-3f22-11ee-b216-50eb714989dc",
+            "deck_config_uuid": "68dd0c3e-3f22-11ee-b216-50eb714989dc",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "3_Identification & Authentication",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "68dcab68-3f22-11ee-b216-50eb714989dc",
+            "deck_config_uuid": "68dd0c3e-3f22-11ee-b216-50eb714989dc",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "4_Access Control",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "68dcd818-3f22-11ee-b216-50eb714989dc",
+            "deck_config_uuid": "68dd0c3e-3f22-11ee-b216-50eb714989dc",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "5_Malware",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "68dd050e-3f22-11ee-b216-50eb714989dc",
+            "deck_config_uuid": "68dd0c3e-3f22-11ee-b216-50eb714989dc",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "6_OS",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        }
+    ],
+    "crowdanki_uuid": "68da0b92-3f22-11ee-b216-50eb714989dc",
+    "deck_config_uuid": "68dd0c3e-3f22-11ee-b216-50eb714989dc",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "68dd0c3e-3f22-11ee-b216-50eb714989dc",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 26
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "ITSec",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "68da8dec-3f22-11ee-b216-50eb714989dc",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n\n/*Start of style added by resize image add-on. Don't edit directly or the edition will be lost. Edit via the add-on configuration */\n.mobile .card img {height:unset  !important; width:unset  !important;}\n/*End of style added by resize image add-on*/",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Front",
+                    "ord": 0,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Back",
+                    "ord": 1,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Add Reverse",
+                    "ord": 2,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic (optional reversed card)",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    1,
+                    "all",
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 2",
+                    "ord": 1,
+                    "qfmt": "{{#Add Reverse}}{{Back}}{{/Add Reverse}}"
+                }
+            ],
+            "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "68dc2c42-3f22-11ee-b216-50eb714989dc",
+            "css": "/* GENERAL CARD STYLE */\n.card {\n  font-family: \"Helvetica LT Std\", Helvetica, Arial, Sans;\n  font-size: 150%;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n\n/* OCCLUSION CSS START - don't edit this */\n#io-overlay {\n  position:absolute;\n  top:0;\n  width:100%;\n  z-index:3\n}\n\n#io-original {\n  position:relative;\n  top:0;\n  width:100%;\n  z-index:2;\n  visibility: hidden;\n}\n\n#io-wrapper {\n  position:relative;\n  width: 100%;\n}\n/* OCCLUSION CSS END */\n\n/* OTHER STYLES */\n#io-header{\n  font-size: 1.1em;\n  margin-bottom: 0.2em;\n}\n\n#io-footer{\n  max-width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 0.8em;\n  font-style: italic;\n}\n\n#io-extra-wrapper{\n  /* the wrapper is needed to center the\n  left-aligned blocks below it */\n  width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 0.5em;\n}\n\n#io-extra{\n  text-align:center;\n  display: inline-block;\n}\n\n.io-extra-entry{\n  margin-top: 0.8em;\n  font-size: 0.9em;\n  text-align:left;\n}\n\n.io-field-descr{\n  margin-bottom: 0.2em;\n  font-weight: bold;\n  font-size: 1em;\n}\n\n#io-revl-btn {\n  font-size: 0.5em;\n}\n\n/* ADJUSTMENTS FOR MOBILE DEVICES */\n\n.mobile .card, .mobile #content {\n  font-size: 120%;\n  margin: 0;\n}\n\n.mobile #io-extra-wrapper {\n  width: 95%;\n}\n\n.mobile #io-revl-btn {\n  font-size: 0.8em;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "ID (hidden)",
+                    "ord": 0,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Header",
+                    "ord": 1,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Image",
+                    "ord": 2,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Question Mask",
+                    "ord": 3,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Footer",
+                    "ord": 4,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Remarks",
+                    "ord": 5,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Sources",
+                    "ord": 6,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Extra 1",
+                    "ord": 7,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Extra 2",
+                    "ord": 8,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Answer Mask",
+                    "ord": 9,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Original Mask",
+                    "ord": 10,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Image Occlusion Enhanced",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        2
+                    ]
+                ]
+            ],
+            "sortf": 1,
+            "tmpls": [
+                {
+                    "afmt": "{{#Image}}\n<div id=\"io-header\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Answer Mask}}</div>\n  <div id=\"io-original\">{{Image}}</div>\n</div>\n{{#Footer}}<div id=\"io-footer\">{{Footer}}</div>{{/Footer}}\n<button id=\"io-revl-btn\" onclick=\"toggle();\">Toggle Masks</button>\n<div id=\"io-extra-wrapper\">\n  <div id=\"io-extra\">\n    {{#Remarks}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Remarks</div>{{Remarks}}\n      </div>\n    {{/Remarks}}\n    {{#Sources}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Sources</div>{{Sources}}\n      </div>\n    {{/Sources}}\n    {{#Extra 1}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Extra 1</div>{{Extra 1}}\n      </div>\n    {{/Extra 1}}\n    {{#Extra 2}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Extra 2</div>{{Extra 2}}\n      </div>\n    {{/Extra 2}}\n  </div>\n</div>\n\n<script>\n// Toggle answer mask on clicking the image\nvar toggle = function() {\n  var amask = document.getElementById('io-overlay');\n  if (amask.style.display === 'block' || amask.style.display === '')\n    amask.style.display = 'none';\n  else\n    amask.style.display = 'block'\n}\n\n// Prevent original image from loading before mask\naFade = 50, qFade = 0;\nvar mask = document.querySelector('#io-overlay>img');\nfunction loaded() {\n    var original = document.querySelector('#io-original');\n    original.style.visibility = \"visible\";\n}\nif (mask === null || mask.complete) {\n    loaded();\n} else {\n    mask.addEventListener('load', loaded);\n}\n</script>\n{{/Image}}\n",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "IO Card",
+                    "ord": 0,
+                    "qfmt": "{{#Image}}\n<div id=\"io-header\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Question Mask}}</div>\n  <div id=\"io-original\">{{Image}}</div>\n</div>\n<div id=\"io-footer\">{{Footer}}</div>\n\n<script>\n// Prevent original image from loading before mask\naFade = 50, qFade = 0;\nvar mask = document.querySelector('#io-overlay>img');\nfunction loaded() {\n    var original = document.querySelector('#io-original');\n    original.style.visibility = \"visible\";\n}\nif (mask === null || mask.complete) {\n    loaded();\n} else {\n    mask.addEventListener('load', loaded);\n}\n</script>\n{{/Image}}\n"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
