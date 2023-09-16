@@ -30,7 +30,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Availability",
-                        "Service is available to the user",
+                        "Service is available to the user (99%, rule of 9s)",
                         ""
                     ],
                     "guid": "x9^)w,x-oc",
@@ -129,7 +129,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Attack",
-                        "Manifestaion of a <b>Threat</b> exploiting a <b>Vulnerability</b>",
+                        "Manifestation of a <b>Threat</b> exploiting a <b>Vulnerability</b>",
                         ""
                     ],
                     "guid": "u[w1>ToDUS",
@@ -162,7 +162,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Security Risk Management",
-                        "<div>Uses a Matrix that shows</div><ul><li>Damage Potential (Impact)</li><li>Threat Potential (Likelihood)</li></ul><div>to implement&nbsp;</div><div><ul><li>System modifications (damage potential)</li><li>Security modifications (threat potential)</li></ul></div>",
+                        "<div>Uses a Matrix that shows</div><ul><li>Damage Potential (Impact)</li><li>Threat Potential (Likelihood)</li></ul><div>to implement&nbsp;</div><div><ul><li>System modifications (reduce Impact)</li><li>Security modifications (reduce Likelihood)</li></ul></div>",
                         ""
                     ],
                     "guid": "P3z.2wtSxu",
@@ -239,7 +239,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Laws Concerning Cybersecurity",
-                        "<ul><li>§202 StGb \"Verletzung des Briefgeheimnisses\"</li><li>§303 a,b StGb</li><li>§ 263a StGB</li></ul>",
+                        "<ul><li>§202 StGb \"Verletzung des Briefgeheimnisses\"</li><li>§303 a,b StGb \"Datenveränderung\"</li><li>§263a StGB \"Computerbetrug\"</li></ul>",
                         ""
                     ],
                     "guid": "xyope*EA[",
@@ -261,7 +261,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Security through Obscurity",
-                        "Goes against Kerckhoffs principle that encryption must solely rely on the secrecy of the key.<br>Does usually not work, but can make attacks more difficult",
+                        "Goes against <b>Kerckhoffs</b> principle that encryption must solely rely on the secrecy of the key.<br>Usually does <b>not</b> work, but can make attacks more difficult",
                         ""
                     ],
                     "guid": "f{)e*&:txP",
@@ -272,7 +272,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Sources of Risk",
-                        "<ul><li>User</li><li>Organisational Problems</li><li>Specificaton, design, implementation ( IT)</li></ul>",
+                        "<ul><li>User</li><li>Organisational Problems</li><li>Specificaton, design, implementation (IT itself)</li></ul>",
                         ""
                     ],
                     "guid": "PwqT}pP.|(",
@@ -321,7 +321,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Hash function",
-                        "<ul><li>[$$]h: D \\rightarrow S[/$$]</li><li>chaotic, 1 bit change should result in a maximal change in S (bit flip 50% probability)</li><li>surjective: |S| fully used</li><li>efficient: h can be calculated quickly</li><li>h is a one-way function</li></ul>",
+                        "<ul><li>[$$]h: D \\rightarrow S[/$$]</li><li>chaotic, 1 bit change should result in a maximal change in S (bit flip 50% probability)</li><li>surjective: |S| fully used</li><li>efficient: h can be calculated quickly</li><li>h is a one-way function (<b>Collision Resistance</b>)</li></ul>",
                         ""
                     ],
                     "guid": "LRT}U_*8^x",
@@ -365,7 +365,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Non-Deterministic RNG",
-                        "<ul><li>true RNG<br></li><li>relies on external (physical) processes that should be unpredictable (thermal noise, decay, ...)</li><li>physical processes emit information at a low rate</li><li>is used as a seed for pseudo-random numbers</li><li>/dev/random in linux</li></ul>",
+                        "<ul><li>true RNG<br></li><li>relies on external (physical) processes that should be unpredictable (thermal noise, decay, ...)</li><li>physical processes emit information at a low rate, is&nbsp; therefore used as a seed for pseudo-random NG</li><li>/dev/random in linux</li></ul>",
                         ""
                     ],
                     "guid": "rAN3._s}-z",
@@ -463,7 +463,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Diffie-Hellman Key Exchange",
-                        "<ol><li>Alice und Bob einigen sich zunächst öffentlich auf eine große Primzahl&nbsp;p\n&nbsp;und eine natürliche Zahl \n\ng, die kleiner als \n\np&nbsp;ist.<br></li><li>Alice und Bob erzeugen zufällig eine privaten Schlüssel [$$]\\in{1,...,p-1}[/$$] a, b.</li><li>Alice und Bob berechnen&nbsp;[$$]A = g^{a} \\mod p[/$$] und tauschen A und B aus.</li><li>Alice und Bob berechnen&nbsp;[$$]K = B^{a} mod p[/$$].&nbsp;</li></ol><div>Beide besitzen aufgrund der Restklassengleichheit den identischen Schlüssel, der für symmetrische Verschlüsselung genutzt werden kann.</div>",
+                        "<ol><li>Alice und Bob einigen sich zunächst öffentlich auf eine große Primzahl&nbsp;p\n&nbsp;und eine natürliche Zahl \n\ng, die kleiner als \n\np&nbsp;ist.<br></li><li>Alice und Bob erzeugen zufällig jeweils einen privaten Schlüssel [$$]\\in{1,...,p-1}[/$$] a, b.</li><li>Alice und Bob berechnen&nbsp;[$$]A = g^{a} \\mod p[/$$] und tauschen A und B aus.</li><li>Alice und Bob berechnen&nbsp;[$$]K = B^{a} mod p[/$$].&nbsp;</li></ol><div>Beide besitzen aufgrund der Restklassengleichheit den identischen Schlüssel, der für symmetrische Verschlüsselung genutzt werden kann.</div>",
                         ""
                     ],
                     "guid": "jBJA0zBohV",
@@ -471,74 +471,6 @@
                     "tags": []
                 }
             ],
-            "reviewLimit": null,
-            "reviewLimitToday": null
-        },
-        {
-            "__type__": "Deck",
-            "children": [],
-            "crowdanki_uuid": "68dc7e0e-3f22-11ee-b216-50eb714989dc",
-            "deck_config_uuid": "68dd0c3e-3f22-11ee-b216-50eb714989dc",
-            "desc": "",
-            "dyn": 0,
-            "extendNew": 0,
-            "extendRev": 0,
-            "media_files": [],
-            "name": "3_Identification & Authentication",
-            "newLimit": null,
-            "newLimitToday": null,
-            "notes": [],
-            "reviewLimit": null,
-            "reviewLimitToday": null
-        },
-        {
-            "__type__": "Deck",
-            "children": [],
-            "crowdanki_uuid": "68dcab68-3f22-11ee-b216-50eb714989dc",
-            "deck_config_uuid": "68dd0c3e-3f22-11ee-b216-50eb714989dc",
-            "desc": "",
-            "dyn": 0,
-            "extendNew": 0,
-            "extendRev": 0,
-            "media_files": [],
-            "name": "4_Access Control",
-            "newLimit": null,
-            "newLimitToday": null,
-            "notes": [],
-            "reviewLimit": null,
-            "reviewLimitToday": null
-        },
-        {
-            "__type__": "Deck",
-            "children": [],
-            "crowdanki_uuid": "68dcd818-3f22-11ee-b216-50eb714989dc",
-            "deck_config_uuid": "68dd0c3e-3f22-11ee-b216-50eb714989dc",
-            "desc": "",
-            "dyn": 0,
-            "extendNew": 0,
-            "extendRev": 0,
-            "media_files": [],
-            "name": "5_Malware",
-            "newLimit": null,
-            "newLimitToday": null,
-            "notes": [],
-            "reviewLimit": null,
-            "reviewLimitToday": null
-        },
-        {
-            "__type__": "Deck",
-            "children": [],
-            "crowdanki_uuid": "68dd050e-3f22-11ee-b216-50eb714989dc",
-            "deck_config_uuid": "68dd0c3e-3f22-11ee-b216-50eb714989dc",
-            "desc": "",
-            "dyn": 0,
-            "extendNew": 0,
-            "extendRev": 0,
-            "media_files": [],
-            "name": "6_OS",
-            "newLimit": null,
-            "newLimitToday": null,
-            "notes": [],
             "reviewLimit": null,
             "reviewLimitToday": null
         }
